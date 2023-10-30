@@ -1,0 +1,39 @@
+.App {
+  /* text-align: center; */
+  /* background-color: olivedrab; */
+
+  min-height: 100vh;
+  /* background-position: contain; */
+  /* background-size: cover;
+  background-image: url('../images/spotify3.jpg'); */
+}
+
+.main-app-title {
+  color: white;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(2, 46, 2);
+
+  font-size: 3rem;
+  margin: 0;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  /* margin-top: 3.5rem; */
+}
+
+.main-sections-div {
+  display: flex;
+  background-size: cover;
+  background-image: url('../images/spotify2.jpg');
+}
+
+.error-message {
+  display: flex;
+  font-size: 1.5rem;
+  color: white;
+  background-color: green;
+  margin: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  justify-content: center;
+}

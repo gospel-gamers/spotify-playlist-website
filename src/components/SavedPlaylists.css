@@ -1,0 +1,87 @@
+.saved-playlists-div {
+    height: 40rem;
+    width: 30rem;
+    max-height: 40rem;
+    max-width:  30rem;
+    margin: 7rem;
+
+    overflow: auto;
+
+    background-color: rgba(25, 90, 13, 0.234);
+
+    border-radius: 10px 0px 0px 10px; /*Round the bottom corners*/
+    border: 2px solid #ccc; /* Optional: Add a border for better visibility */
+}
+
+.playlist-item {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.playlist-title {
+    color: white;
+    padding-left: 2rem;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    /* padding-bottom: 0.4rem; */
+}
+
+.playlist-tracks-info {
+    color: palegreen;
+    font-size: 1.2rem;
+    padding-top: 0.4rem;
+    padding-left: 2.1rem;
+    margin: 0;
+}
+
+.playlist-item:hover {
+    background-color: green;
+    /*  */
+}
+
+/* Style for the buttons */
+
+.special-buttons-div {
+    margin: 1.5rem 1.8rem 1.8rem;
+    margin-top: 1.5rem;
+    margin-left: 1.8rem;
+    margin-right: 1.8rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background-color: #007bff; /* Blue color */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-right: 10px; /* Add margin between buttons */
+    cursor: pointer;
+    border-radius: 4px; /* Rounded corners */
+    font-size: 14px;
+}
+  
+  /* Style for the Edit Playlist button */
+button.edit-button {
+    color: white;
+    background-color: #ffc107; /* Yellow color */
+}
+  
+  /* Style for the Save to Spotify button */
+button.save-playlist-button {
+    color: white;
+    background-color: #28a745; /* Green color */
+}
+  
+  /* Style for the Delete Playlist button */
+button.delete-button {
+    color: white;
+    background-color: #dc3545; /* Red color */
+}
+  
+  /* Add hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+    color: white;
+}

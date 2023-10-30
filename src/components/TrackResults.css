@@ -1,0 +1,54 @@
+.track-results-div {
+    height: 40rem;
+    width: 30rem;
+    max-height: 40rem;
+    max-width:  30rem;
+    margin: 7rem;
+
+    overflow: auto;
+
+    background-color: rgba(25, 90, 13, 0.234);
+
+    border-radius: 10px 0px 0px 10px; /*Round the bottom corners*/
+    border: 2px solid #ccc; /* Optional: Add a border for better visibility */
+}
+
+.track-results-list > div {
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.track-results-list > div:hover{
+    background-color: green;
+    /* opacity: 0.3; */
+}
+
+.track-name {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.artist-name {
+    /* color: aqua; */
+    color: palegreen;
+    font-weight: 500;
+}
+
+h3 {
+    color: white;
+    /* text-align: center; */
+    font-size: 2.4rem;
+    /* padding-top: 1rem; */
+    margin: 1.5rem 0 2rem 1.75rem;
+}
+
+.add-button {
+    font-size: 1rem;
+    margin-left: 23rem;
+}
+
+.add-button:hover {
+    cursor: pointer;
+}
